@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnReverseString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reverse Text"/>
+        <Button
+            android:id="@+id/btnReverseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reverse Number"/>
+        <Button
+            android:id="@+id/btnAutomorphic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automorphic "/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+        <Button
+            android:id="@+id/btnArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area"/>
+
+        <Button
+            android:id="@+id/btnPalindrome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Palindrome" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
